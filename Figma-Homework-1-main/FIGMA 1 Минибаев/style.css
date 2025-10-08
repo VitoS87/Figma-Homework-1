@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 1920px;
+    height: 85px;
+    display: flex;
+}
+.logo img{
+    width: 79.56515502929688px;
+    height: 23.040000915527344px;
+    margin-top: 31px;
+    margin-left: 274.97px;
+}
+.nav {
+    width: 557px;
+    height: 24px;
+    margin-top: 31px;
+    margin-left: 160px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+a{
+    color: #292929;
+}
+.signin {
+    width: 277px;
+    height: 51px;
+    margin-top: 18px;
+    margin-left: 260px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+.Start{
+    width: 183px;
+    height: 51px;
+    border-radius: 4px;
+    border-width: 1px;
+    padding-top: 13px;
+    padding-right: 50px;
+    padding-bottom: 13px;
+    padding-left: 50px;
+    gap: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+
+}
+.main{
+    width: 1920px;
+    height: 895px;
+    background-image: url("BG.png");
+}
+.headline{
+    width: 440px;
+    height: 500px;
+    padding-top: 165px;
+    display: flex;
+    flex-direction: column;
+}
+.h1{
+    width: 440px;
+    height: 148px;
+    margin-left: 275px;
+    font-family: Georgia;
+    font-weight: 700;
+    font-size: 65px;
+}
+.h2{
+    width: 420px;
+    height: 123px;
+    margin-left: 275px;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.h3{
+    width: 227px;
+    height: 65px;
+    margin-left: 275px;
+    border-radius: 4px;
+    border-width: 1px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    gap: 30px;
+    font-size: 18px;
+
+}
+.page2{
+    width: 1413px;
+    height: 1386px;
+    margin-top: 170px;
+    margin-left: 275px;
+
+}
+.header2{
+    width: 1391px;
+    height: 327px;
+}
+.h1n2{
+    width: 141px;
+    height: 38px;
+    font-size: 24px;
+    line-height: 157%;
+}
+.h2n2{
+    width: 584px;
+    height: 158px;
+    font-family: Georgia;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+}
+.h3n2{
+    width: 671px;
+    height: 269px;
+    margin-left: 720px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
